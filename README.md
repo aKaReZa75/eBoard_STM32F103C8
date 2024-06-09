@@ -16,10 +16,9 @@ STM32 Cube Package
 [![](https://img.shields.io/badge/Cube-F2_v190-blue)](https://www.mediafire.com/file/ajp6arei11f6trr/stm32cube_fw_f2_v190.zip/file)
 [![](https://img.shields.io/badge/Cube-F2_v194-blue)](https://www.mediafire.com/file/7ap8mh9l2tdu3jr/stm32cube_fw_f2_v194.zip/file)
 [![](https://img.shields.io/badge/Cube-F3_v1110-blue)](https://www.mediafire.com/file/74w0jq0kvliu6dy/stm32cube_fw_f3_v1110.zip/file)
-[![](https://img.shields.io/badge/Cube-F4_v1230-blue)]() 
-[![](https://img.shields.io/badge/Cube-F4_v1230-blue)]() 
+[![](https://img.shields.io/badge/Cube-F4_v1230-blue)](https://www.mediafire.com/file/l2gfjk8o5vlhlxf/stm32cube_fw_f4_v1230.zip/file) 
 [![](https://img.shields.io/badge/Cube-F4_v1270-blue)](https://www.mediafire.com/file/emtlenksppxzi5o/stm32cube_fw_f4_v1270.zip/file) 
-[![](https://img.shields.io/badge/Cube-F4_v1280-blue)]() 
+[![](https://img.shields.io/badge/Cube-F4_v1280-blue)](https://www.mediafire.com/file/jghj1yq7tk8s20q/stm32cube_fw_f4_v1280.zip/file) 
 [![](https://img.shields.io/badge/Cube-F7_v1170-blue)]() 
 
 [![](https://img.shields.io/badge/Cube-G0_v160-blue)](https://www.mediafire.com/file/j57obnwma8e4epo/stm32cube_fw_g0_v160.zip/file) 
