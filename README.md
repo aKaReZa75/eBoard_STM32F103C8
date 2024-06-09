@@ -15,7 +15,7 @@ STM32 Cube Package
 [![](https://img.shields.io/badge/Cube-F2_v194-blue)](https://www.mediafire.com/file/7ap8mh9l2tdu3jr/stm32cube_fw_f2_v194.zip/file)
 [![](https://img.shields.io/badge/Cube-F3_v1110-blue)](https://www.mediafire.com/file/74w0jq0kvliu6dy/stm32cube_fw_f3_v1110.zip/file)
 [![](https://img.shields.io/badge/Cube-F4_v1270-blue)](https://www.mediafire.com/file/emtlenksppxzi5o/stm32cube_fw_f4_v1270.zip/file) 
-[![](https://img.shields.io/badge/Cube-F7_v1170-blue)]() 
+[![](https://img.shields.io/badge/Cube-F7_v1170-blue)](https://www.mediafire.com/file/suwkita0op1xhbn/stm32cube_fw_f7_v1170.zip/file) 
 
 [![](https://img.shields.io/badge/Cube-G0_v160-blue)](https://www.mediafire.com/file/j57obnwma8e4epo/stm32cube_fw_g0_v160.zip/file) 
 [![](https://img.shields.io/badge/Cube-G0_v161-blue)](https://www.mediafire.com/file/fxzmhgajn52o9ko/stm32cube_fw_g0_v161.zip/file) 
