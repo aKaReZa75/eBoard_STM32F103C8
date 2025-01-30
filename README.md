@@ -35,6 +35,8 @@ git clone https://github.com/aKaReZa75/STM32
 **Note:** Please keep in mind that the numbers displayed in the image might vary when you perform the same actions. This is because repositories are continuously being updated and expanded. Nevertheless, the overall process remains unchanged.
 
 # STM32 **Cube** Package
+You can download the STM32Cube MCU Firmware Packages through the following links:
+
 [![](https://img.shields.io/badge/Cube-C0_v100-blue)](https://www.mediafire.com/file/g50dhmr7ik9lgsj/stm32cube_fw_c0_v100.zip/file)
 [![](https://img.shields.io/badge/Cube-C0_v101-blue)](https://www.mediafire.com/file/ylzs5c9v1owe3e2/stm32cube_fw_c0_v101.zip/file) 
 
@@ -72,6 +74,8 @@ git clone https://github.com/aKaReZa75/STM32
 
 
 # STM32 **Keil** Package
+You can download the STM32 MCU DFU packages for Keil through the following links:
+
 [![](https://img.shields.io/badge/Keil-C0_DFP.1.0.0-darkgreen)](https://www.mediafire.com/file/4pakp5geniqhl1q/Keil.STM32C0xx_DFP.1.0.0.zip/file) 
 
 [![](https://img.shields.io/badge/Keil-F0_DFP.2.1.1-darkgreen)](https://www.mediafire.com/file/ceo5dil925sy4km/Keil.STM32F0xx_DFP.2.1.1.zip/file) 
