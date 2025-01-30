@@ -1,4 +1,7 @@
 # STM32 Microcontroller
+This repository contains a comprehensive collection of hardware examples and code samples for the STM32 microcontroller family. 
+It includes a wide range of projects demonstrating various peripherals and features of STM32 microcontrollers, along with the necessary libraries and resources to get you started. 
+Whether you are a beginner or an experienced embedded developer, you will find valuable resources and practical examples to accelerate your STM32 development.
 
 # 💻 How to Use Git and GitHub
 First, open **Git Bash** :
