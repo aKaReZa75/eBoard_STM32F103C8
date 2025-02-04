@@ -82,13 +82,6 @@ If you found this repository useful:
 - Share this repository with others.
 - Give this repository and my other repositories a star.
 - Follow my [GitHub account](https://github.com/aKaReZa75).
-
-# 📜 License
-This project is licensed under the GPL-3.0 License. This license grants you the freedom to use, modify, and distribute the project as long as you:
-- Credit the original authors: Give proper attribution to the original creators.
-- Disclose source code: If you distribute a modified version, you must make the source code available under the same GPL license.
-- Maintain the same license: When you distribute derivative works, they must be licensed under the GPL-3.0 too.
-- Feel free to use it in your projects, but make sure to comply with the terms of this license.
   
 # ✉️ Contact Me
 Feel free to reach out to me through any of the following platforms:
