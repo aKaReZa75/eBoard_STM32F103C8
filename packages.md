@@ -76,20 +76,6 @@ You can download the STM32 MCU DFU packages for Keil through the following links
 [![](https://img.shields.io/badge/Keil-NRG-2_DFP.1.0.1]-darkgreen)](https://www.mediafire.com/file/sv4yk1heow36vaa/Keil.STBlueNRG-2_DFP.1.0.1.zip/file) 
 [![](https://img.shields.io/badge/Keil-NRG-LP_DFP.3.0.0]-darkgreen)](https://www.mediafire.com/file/qabvcsn46kzunyk/Keil.STBlueNRG-LP_DFP.3.0.0.zip/file) 
 
-# 🤝 Contributing to the Repository
-To contribute to this repository, please follow these steps:
-1. **Fork the Repository**  
-2. **Clone the Forked Repository**  
-3. **Create a New Branch**  
-4. **Make Your Changes**  
-5. **Commit Your Changes**  
-6. **Push Your Changes to Your Forked Repository**  
-7. **Submit a Pull Request (PR)**  
-
-> [!NOTE]
-> Please ensure your pull request includes a clear description of the changes you’ve made.
-> Once submitted, I will review your contribution and provide feedback if necessary.
-
 # 🌟 Support Me
 If you found this repository useful:
 - Subscribe to my [YouTube Channel](https://www.youtube.com/@aKaReZa75).
