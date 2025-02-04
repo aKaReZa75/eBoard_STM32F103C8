@@ -41,7 +41,7 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 ## Development Tools
 - **IDEs**: Keil MDK.
 - **Programmers**: STLINK-V3MINIE.
-- **Debuggers**: STLINK-V3MINIE.
+- **Debuggers**: STLINK-V3MINIE, Serial debugging via UART, print (using SWO).
   
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
