@@ -45,8 +45,12 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 
 
 # 🔗 Resources
-  Here you'll find a collection of useful links and documents related to the ESP8266 microcontroller and its applications.   
+  Here you'll find a collection of useful links and documents related to the STM32 microcontroller and its applications.   
   These resources include datasheets, tutorials, and essential tools to get you started and guide you through.
+
+> [!TIP]
+> The resources are detailed in the sections below.  
+> To access any of them, simply click on the corresponding blue link.
   
 > [!CAUTION]
 > This tutorial has not yet **started!**
