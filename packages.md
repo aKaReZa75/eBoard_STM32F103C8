@@ -1,3 +1,9 @@
+# STM32 Packages
+The STM32 Cube Package section provides a collection of links to download various versions of the STM32Cube MCU Firmware Packages for different STM32 microcontroller families.  
+These packages include essential libraries, drivers, and middleware to simplify and speed up the development process for STM32-based projects.  
+Additionally, the section also contains links to download the STM32 MCU DFU (Device Firmware Update) packages for Keil.  
+These DFU packages are essential for programming and debugging STM32 microcontrollers using the Keil IDE, providing the necessary support for various STM32 families.
+
 # STM32 **Cube** Package
 You can download the STM32Cube MCU Firmware Packages through the following links:
 
