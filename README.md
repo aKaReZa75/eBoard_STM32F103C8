@@ -3,6 +3,9 @@
 The STM32F103C8T6 is a high-performance, 32-bit ARM Cortex-M3 microcontroller from STMicroelectronics.  
 It is part of the STM32 family and is widely used in embedded systems, IoT devices, and various industrial applications due to its powerful features and flexibility.
 
+> [!CAUTION]
+> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+
 ## Key Features
 - **Core**: ARM Cortex-M3 32-bit RISC core.
 - **Clock Speed**: Up to 72 MHz.
