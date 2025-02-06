@@ -58,6 +58,12 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 > [!CAUTION]
 > This tutorial has not yet **started!**
 
+- [Common Microcontroller Concepts](https://github.com/aKaReZa75/Microcontroller)
+  ---  
+  This document covers foundational topics shared by all microcontrollers, regardless of architecture.   
+  It explains general principles—such as how USART works—without device-specific implementation details, which are covered in individual videos.    
+  This central resource prevents redundancy and gives you a solid theoretical base before moving to practical setups.
+
 - [STM32 Packages](./packages.md)  
   ---  
   This section offers download links for STM32Cube MCU Firmware Packages and Keil DFU (Device Firmware Update) packages.  
