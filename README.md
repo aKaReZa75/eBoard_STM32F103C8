@@ -6,6 +6,12 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 > [!CAUTION]
 > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
 
+> [!TIP]
+> If you're looking to better understand how to navigate and use my GitHub repositories — including exploring their structure, downloading or cloning projects, submitting issues, and asking questions 
+> everything you need is clearly explained in this video:  
+> [aKaReZa 95 - Programming, Git - PART B](https://youtu.be/zYiUItVFRqQ)   
+> Make sure to check it out!
+
 ## Key Features
 - **Core**: ARM Cortex-M3 32-bit RISC core.
 - **Clock Speed**: Up to 72 MHz.
