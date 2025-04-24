@@ -17,7 +17,7 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
   > Make sure to check it out!
   
   </td>
-    <td width="360" valign="top" style="padding: 0;">
+    <td width="360" valign="middle" style="padding: 0;">
       <a href="https://youtu.be/zYiUItVFRqQ">
        <img src="https://img.youtube.com/vi/zYiUItVFRqQ/maxresdefault.jpg"
              width="360"
