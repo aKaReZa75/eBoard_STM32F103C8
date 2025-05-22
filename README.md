@@ -54,9 +54,10 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 > [!TIP]
 > The resources are detailed in the sections below.  
 > To access any of them, simply click on the corresponding blue link.
-  
-> [!CAUTION]
-> This tutorial has not yet **started!**
+
+- [Video PlayList](./Videos.md)
+  ---  
+  All educational videos related to this topic are available at this link.  
 
 - [STM32 Packages](./packages.md)  
   ---  
