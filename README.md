@@ -1,7 +1,6 @@
 # STM32F103C8T6 Microcontroller
 
-The STM32F103C8T6 is a high-performance, 32-bit ARM Cortex-M3 microcontroller from STMicroelectronics.  
-It is part of the STM32 family and is widely used in embedded systems, IoT devices, and various industrial applications due to its powerful features and flexibility.
+This repository involves designing, assembling, and testing an educational header board for the STM32F103C8 microcontroller, compatible with the Arduino UNO.
 
 ![STM32F103C8 Shield](Images/STM32F103C8.jpg)
 
