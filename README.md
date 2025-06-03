@@ -36,10 +36,6 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
   </tr>  
 </table>
 
-
-
-
-
 ## Key Features
 - **Core**: ARM Cortex-M3 32-bit RISC core.
 - **Clock Speed**: Up to 72 MHz.
@@ -80,6 +76,15 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 - **Programmers**: STLINK-V3MINIE.
 - **Debuggers**: STLINK-V3MINIE, Serial debugging via UART, print (using SWO).
 
+## Detailed Description
+| Aspect               | Description                  |
+|----------------------|------------------------------|
+| PCB Design Software  | Altium  V24.2.2              |
+| PCB Layers           | 2-Layer FR4                  |
+| Microcontroller      | STM32F103C8                  |
+| Pin Type             | Arduino UNO                  |
+| Converter IC         | CH340                        |
+| USB Port             | TYPE-C                       |
 
 # 🔗 Resources
   Here you'll find a collection of useful links and documents related to the STM32 microcontroller and its applications.   
