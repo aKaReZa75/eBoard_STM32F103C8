@@ -94,7 +94,7 @@ This repository involves designing, assembling, and testing an educational heade
 > To access any of them, simply click on the corresponding blue link.
 
 > [!CAUTION]
-> > The videos in this series have been recorded and will be published after editing!
+> The videos in this series have been recorded and will be published after editing!
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
