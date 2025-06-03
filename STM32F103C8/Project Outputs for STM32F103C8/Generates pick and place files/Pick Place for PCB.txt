@@ -1,0 +1,79 @@
+Altium Designer Pick and Place Locations
+E:\aKaReZa\#gitHub\STM32\STM32F103C8\Project Outputs for STM32F103C8\Generates pick and place files\Pick Place for PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       03/06/25
+Time:       15:18
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment        Layer       Footprint                     Center-X(mm) Center-Y(mm) Rotation Description                                                               
+S2         PB             TopLayer    SW_PB_SMD_2PIN_SPST_6X3X2     39.8780      13.4620      180      "SMT Tactile ?Switch"                                                     
+R4         10K            TopLayer    RES_0805_(2012X06L)           38.0660      10.5410      180      Resistor                                                                  
+C25        100n           TopLayer    CAP_0805/2012                 42.3250      10.5410      0        "Bipolar ceramic capacitor SMD"                                           
+R1         390b           TopLayer    RES_0805_(2012X06L)           17.5600      15.8750      180      Resistor                                                                  
+C5         10u            BottomLayer SMT_C_Tantalum_A              35.9410      23.2410      0        "Tantalum Capacitor,TAJ Series-SMD"                                       
+C9         100n           BottomLayer CAP_0805/2012                 25.0444      18.1610      180      "Bipolar ceramic capacitor SMD"                                           
+JP1        Jumper         BottomLayer RESC2012M_(0805)              36.1950      7.6200       180      "Jumper Component"                                                        
+J1         Micro          TopLayer    USB_Micro_Standard            43.6750      3.2030       90       "USB micro female"                                                        
+Y2         32.768KHz      TopLayer    XTL_2_3215                    20.7010      24.6380      0        "Crystal Oscillator"                                                      
+C7         12.5p          TopLayer    CAP_0603/1608                 22.2250      26.7970      180      "Bipolar ceramic capacitor SMD"                                           
+C6         12.5p          TopLayer    CAP_0603/1608                 19.5180      26.7970      0        "Bipolar ceramic capacitor SMD"                                           
+P1         STLinkV3-minie TopLayer    IDC2.54-10PIN                 26.9240      4.9530       180      "STLINK-V3MINIE debugger/programmer IDC probe for STM32 microcontrollers" 
+S1         PB             TopLayer    SW_PB_SMD_2PIN_SPST_6X3X2     12.5730      5.3340       90       "SMT Tactile ?Switch"                                                     
+Y1         8MHz           TopLayer    XTL_2_5032                    16.4893      19.7964      270      "Crystal Oscillator"                                                      
+Y3         12M            TopLayer    Crystal_SMD                   45.8470      59.6310      270      "Crystal Oscillator"                                                      
+U1         STM32F103C8T6  TopLayer    LQFP48_N                      27.8130      18.2880      0        "32-Bit mircrocontroller"                                                 
+U2         5V             TopLayer    SOT223_M                      15.2400      46.8630      270      "1'A Positive voltage regulator"                                          
+R6         680b           TopLayer    RES_0805_(2012X06L)           3.3655       66.5870      270      Resistor                                                                  
+R5         1.8k           TopLayer    RES_0805_(2012X06L)           5.2070       66.5870      270      Resistor                                                                  
+R3         1k             TopLayer    RES_0805_(2012X06L)           46.8630      46.0130      270      Resistor                                                                  
+R14        1.8K           TopLayer    RES_0805_(2012X06L)           38.7350      41.5060      90       Resistor                                                                  
+R13        4.7K           BottomLayer RES_0805_(2012X06L)           36.8300      65.0630      270      Resistor                                                                  
+R12        4.7K           BottomLayer RES_0805_(2012X06L)           33.9090      65.0630      270      Resistor                                                                  
+JP2        0b             TopLayer    jumper_selector               26.1620      40.5130      270      "Jumper Selector"                                                         
+J3         12b            TopLayer    HRO_TYPE-C-31-M-12_-_Extended 35.4330      63.9158      180      "USB C Female Connector"                                                  
+F2         0.5A           TopLayer    1206_F                        14.3510      53.7210      180      "Short circiut  protection"                                               
+D3         Red            TopLayer    LED_0805/2012_RED             4.1910       59.0550      90       LED                                                                       
+D1         Green          TopLayer    LED_0805/2012_GREEN           46.8630      41.6560      90       LED                                                                       
+C15        100n           TopLayer    CAP_1206/3216                 20.3200      48.8950      90       "Bipolar ceramic capacitor SMD"                                           
+C14        100n           TopLayer    CAP_1206/3216                 7.7470       48.6410      270      "Bipolar ceramic capacitor SMD"                                           
+C13        22u            TopLayer    SMT_C_Tantalum_A              22.7330      49.1490      90       "Tantalum Capacitor,TAJ Series-SMD"                                       
+C12        10u            TopLayer    SMT_C_Tantalum_A              10.1600      49.0220      270      "Tantalum Capacitor,TAJ Series-SMD"                                       
+C20        10u            TopLayer    SMT_C_Tantalum_A              34.4140      42.1640      0        "Tantalum Capacitor,TAJ Series-SMD"                                       
+U4         CH340G         TopLayer    SO16_M                        34.2900      53.2130      180      "TTL To USB Chip"                                                         
+U3         3.3V           TopLayer    SOT223_M                      15.6210      34.4170      270      "1'A Positive voltage regulator"                                          
+R7         220b           TopLayer    RES_0805_(2012X06L)           1.5240       66.5870      270      Resistor                                                                  
+R9         680            TopLayer    RES_0805_(2012X06L)           42.7990      46.1494      270      Resistor                                                                  
+R8         680            TopLayer    RES_0805_(2012X06L)           40.7670      46.1494      270      Resistor                                                                  
+R11        1K             TopLayer    RES_0805_(2012X06L)           44.8310      46.2510      270      Resistor                                                                  
+R10        1K             TopLayer    RES_0805_(2012X06L)           38.7350      46.2510      270      Resistor                                                                  
+R2         10K            TopLayer    RES_0805_(2012X06L)           15.6210      7.2160       90       Resistor                                                                  
+P2         UNO            TopLayer    ARDUINO_UNO_CONNECTOR         26.7970      28.7020      270      "Arduino UNO Connector"                                                   
+L1         100u           BottomLayer IND0805                       19.0500      17.1450      0        Inductor                                                                  
+J2         Female         TopLayer    Power_Jack_BIG                11.8740      61.2710      270      "Power Jack"                                                              
+F1         3A             TopLayer    1206_F                        20.3200      56.7690      270      "Short circiut  protection"                                               
+F4         500m           TopLayer    1206_F                        26.9240      62.7380      270      "Short circiut  protection"                                               
+F3         0.5A           TopLayer    1206_F                        15.1130      40.3860      180      "Short circiut  protection"                                               
+D4         Green          TopLayer    LED_0805/2012_GREEN           1.6510       59.0550      90       LED                                                                       
+D6         RED            TopLayer    LED_0805/2012_RED             44.1537      41.6560      90       LED                                                                       
+D5         RED            TopLayer    LED_0805/2012_RED             41.4443      41.6560      90       LED                                                                       
+D2         Yellow         TopLayer    LED_0805/2012_YELLOW          6.7310       59.0550      90       LED                                                                       
+C4         100n           BottomLayer CAP_0805/2012                 20.0660      14.1224      270      "Bipolar ceramic capacitor SMD"                                           
+C2         20p            TopLayer    CAP_0603/1608                 13.7261      18.4558      90       "Bipolar ceramic capacitor SMD"                                           
+C1         20p            TopLayer    CAP_0603/1608                 13.7296      21.1508      270      "Bipolar ceramic capacitor SMD"                                           
+C23        22p            TopLayer    CAP_0805/2012                 42.1640      56.0324      270      "Bipolar ceramic capacitor SMD"                                           
+C22        22p            TopLayer    CAP_0805/2012                 42.4180      63.2120      90       "Bipolar ceramic capacitor SMD"                                           
+C21        100n           TopLayer    CAP_0805/2012                 34.3916      45.8470      0        "Bipolar ceramic capacitor SMD"                                           
+C24        10n            TopLayer    CAP_0805/2012                 42.1640      51.9176      90       "Bipolar ceramic capacitor SMD"                                           
+C19        100n           TopLayer    CAP_1206/3216                 20.3200      35.4330      90       "Bipolar ceramic capacitor SMD"                                           
+C18        100n           TopLayer    CAP_1206/3216                 8.7630       35.3060      270      "Bipolar ceramic capacitor SMD"                                           
+C17        22u            TopLayer    SMT_C_Tantalum_A              22.4790      36.0680      90       "Tantalum Capacitor,TAJ Series-SMD"                                       
+C16        10u            TopLayer    SMT_C_Tantalum_A              11.0490      35.3060      270      "Tantalum Capacitor,TAJ Series-SMD"                                       
+C3         100n           TopLayer    CAP_0805/2012                 15.6210      3.2004       270      "Bipolar ceramic capacitor SMD"                                           
+C11        100n           BottomLayer CAP_0805/2012                 27.8130      21.8186      90       "Bipolar ceramic capacitor SMD"                                           
+C8         100n           BottomLayer CAP_0805/2012                 32.1056      17.9070      0        "Bipolar ceramic capacitor SMD"                                           
+C10        100n           BottomLayer CAP_0805/2012                 27.8130      15.0114      270      "Bipolar ceramic capacitor SMD"                                           

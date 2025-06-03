@@ -1,0 +1,440 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">6/3/2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3:14:27 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc" class="file"><acronym title="E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc">E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">2</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">4</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">PCB Health Issues:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">4</td></tr>
+</table>
+</td>
+</table><a name="ID1EF1QQFRFHIDFHJYMPV543VX5FV0AUABV21AE1O13BFRRRRPVHUL"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDED4PJNBU1NJNEMYPOST2524ZI1D2D2MQCUBCFNETEVSO0JLU5QP">Clearance Constraint (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFZEH41HENOCODWEY32ARLRNHFDSVPZITP40GBAL4KG2HBBPRTSCN">Clearance Constraint (Gap=0.25mm) (All),(InPolygon)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGYIUKVVP20EIL43FOQXDKOUIZDGLVFEZ3QPTS5WIFVZ33AKNQ3B">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJ0K13XLVUV4RI0EEZHKA2RQRCFCRPRLKE1KNWOHBEIJ4FOJVTDAD">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVNHAVMTF3SUDFBD0XBE54EYZBOEHRWVVKMUDFGEHWA3O1CMEDY5L">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGCWJXJGDJ04KFNHS2TEKX1N25HBEZUJG3E4YT0PW4ZHE40FL5WLM">Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDT5DGSHX3ANG4L40A12F02GFC4KWMQU13IH404NCSZNZPG1UNXLYB">Routing Layers(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZ0VZ1IHA4AWFKL0DPY0BJSGGJONQKMBO5ODR1VEBNUABSEQBTFMC">Routing Via (MinHoleWidth=0.4mm) (MaxHoleWidth=3mm) (PreferredHoleWidth=0.4mm) (MinWidth=0.7mm) (MaxWidth=6mm) (PreferedWidth=0.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIAEALJYF0JZ2BFQK1WSJBVBTND01QAAXQEDMBMF4UBZMX4HRAOQM">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSRSJW4EIVMCWEOSVX3MWQ4KTJJ4TEFIAPPUKPJHQBLK51LECWA2I">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVT0HIPOFSPZALPL2RSZOLVL4WC4GKZM4DAXQJEMSMVU51ZQDGMKK">Minimum Annular Ring (Minimum=0.15mm) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTJHLLYYJKZMUE4BM2GJNOUB5FOY1VM45BEIG0RIYUT42N5PVFVIL">Acute Angle Constraint [Tracks Only] (Minimum=60.000) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYV3NHTU30QQ5BBYNF53MCUDEQKZIKGKHUA0N3UI12SS101ELOMNE">Hole Size Constraint (Min=0.4mm) (Max=10mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0F3QFMGCR50TD31LB2Y2JKFO1NZWPEQP5RMF5VEJXKUBPMXLZGE">Hole To Hole Clearance (Gap=0.3mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3Q5MKJHV3UZCN20UKVAU4WQY2LHRXHANVETC5AONH13Z5TF1JEQK">Minimum Solder Mask Sliver (Gap=0.01mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFUHGSUS2IBZTDF01DRXHXTK1EOQD5UMBGUUAUSC0A2CWW0NE0VQ">Silk To Solder Mask (Clearance=0.01mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSWATIGQ3Q03VP24D5LD1EZKJCPSPCA1D52CLOXH5MJLHOPYQNGUE">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0FCNTGJFWVHWHRV0WNWLZONPCEIQEXQW5EMMJZFITS1N0KX4CJRB">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDR2CAXIRNMEXNLRXLS5ZFDSTFPOQOA3IJSCDMX4DL0NZDBWYAPQE">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">2</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQM1XFSM255RKHJOYBMPKRO0BP4D3M32OAJJUXMUPGJOTWRHZJMG">Minimum Annular Ring (Minimum=0.15mm) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">4</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">PCB Health Issues</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4ZRBX3INY0JZM3RBRC1VGJZE0H2DXVAGLNLZ1XEHCCZMSRKZAVMN">Reference Point Outside the Component Area</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSU5C2D11QGIZL2PST0TK5HWKTGG5KBQOLIKIURDF2FYYGAFDOYCL">Micro-Segments (Copper)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCJRUSIWQCJCYIEQ4BG2L4PMYFC1VMYVETOTPCYGC3WGSTYVD3SZG">Self-Intersecting Regions</a></td>
+<td class="column2">1</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">4</td>
+</tr>
+</table><br><a name="IDO5RMG4K0IJESBTPNLHM1L415XE22HGGGJ41QJOLEI22MBOCCO1UG"><h2>Rule Violations</h2></a><a name="IDVT0HIPOFSPZALPL2RSZOLVL4WC4GKZM4DAXQJEMSMVU51ZQDGMKK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.15mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6528.279mil|Location2.X=6533.217mil|Location1.Y=1142.178mil|Location2.Y=1147.114mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6528.279mil|Location2.X=6533.217mil|Location1.Y=1142.178mil|Location2.Y=1147.114mil|Absolute=True">Minimum Annular Ring: (No Ring) Via (41.675mm,3.674mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6685.76mil|Location2.X=6690.697mil|Location1.Y=1142.178mil|Location2.Y=1147.114mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6685.76mil|Location2.X=6690.697mil|Location1.Y=1142.178mil|Location2.Y=1147.114mil|Absolute=True">Minimum Annular Ring: (No Ring) Via (45.675mm,3.674mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDUWSLPSVEB5MQBKBBKXQJJDA0BDS34D5K5XZEUNHCRWJCQZ3U4IKD"><h2>Waived Violations</h2></a><a name="IDQM1XFSM255RKHJOYBMPKRO0BP4D3M32OAJJUXMUPGJOTWRHZJMG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Minimum Annular Ring (Minimum=0.15mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4992.532mil|Location2.X=4997.468mil|Location1.Y=3152.532mil|Location2.Y=3157.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4992.532mil|Location2.X=4997.468mil|Location1.Y=3152.532mil|Location2.Y=3157.468mil|Absolute=True">Minimum Annular Ring: (No Ring) Pad P2-H1(2.667mm,54.737mm) on Multi-Layer (Annular Ring missing on Top Layer)</acronym></a><br>Waived by aKaReZa at 3/8/2025 11:19:23 PM<br>Board Holes</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5192.532mil|Location2.X=5197.468mil|Location1.Y=1102.532mil|Location2.Y=1107.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5192.532mil|Location2.X=5197.468mil|Location1.Y=1102.532mil|Location2.Y=1107.468mil|Absolute=True">Minimum Annular Ring: (No Ring) Pad P2-H2(7.747mm,2.667mm) on Multi-Layer (Annular Ring missing on Top Layer)</acronym></a><br>Waived by aKaReZa at 3/8/2025 11:19:23 PM<br>Board Holes</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6292.532mil|Location2.X=6297.468mil|Location1.Y=1102.532mil|Location2.Y=1107.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6292.532mil|Location2.X=6297.468mil|Location1.Y=1102.532mil|Location2.Y=1107.468mil|Absolute=True">Minimum Annular Ring: (No Ring) Pad P2-H3(35.687mm,2.667mm) on Multi-Layer (Annular Ring missing on Top Layer)</acronym></a><br>Waived by aKaReZa at 3/8/2025 11:19:23 PM<br>Board Holes</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6892.532mil|Location2.X=6897.468mil|Location1.Y=3102.532mil|Location2.Y=3107.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6892.532mil|Location2.X=6897.468mil|Location1.Y=3102.532mil|Location2.Y=3107.468mil|Absolute=True">Minimum Annular Ring: (No Ring) Pad P2-H4(50.927mm,53.467mm) on Multi-Layer (Annular Ring missing on Top Layer)</acronym></a><br>Waived by aKaReZa at 3/8/2025 11:19:23 PM<br>Board Holes</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVMRHHU5ZFDNGBSHQAYJT1VJ5EN4BGB5KWAYRDBJXR5LT3T2E3JQF"><h2>PCB Health Issues</h2></a><a name="ID4ZRBX3INY0JZM3RBRC1VGJZE0H2DXVAGLNLZ1XEHCCZMSRKZAVMN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="health">Reference Point Outside the Component Area</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5221.591mil|Location2.X=5631.103mil|Location1.Y=3250.764mil|Location2.Y=3865mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5221.591mil|Location2.X=5631.103mil|Location1.Y=3250.764mil|Location2.Y=3865mil|Absolute=True">Reference point outside the component area: Small Component J2-Female (14.224mm,72.771mm) on Top Layer</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSU5C2D11QGIZL2PST0TK5HWKTGG5KBQOLIKIURDF2FYYGAFDOYCL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="health">Micro-Segments (Copper)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16.51mm|Location2.X=16.51mm|Location1.Y=51.689mm|Location2.Y=51.689mm" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16.51mm|Location2.X=16.51mm|Location1.Y=51.689mm|Location2.Y=51.689mm">Micro-Segment: Region (0 hole(s)) Top Layer P1(16.51mm,51.689mm) P2(16.51mm,51.689mm)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16.51mm|Location2.X=16.51mm|Location1.Y=49.403mm|Location2.Y=49.403mm" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=16.51mm|Location2.X=16.51mm|Location1.Y=49.403mm|Location2.Y=49.403mm">Micro-Segment: Region (0 hole(s)) Top Layer P1(16.51mm,49.403mm) P2(16.51mm,49.403mm)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDCJRUSIWQCJCYIEQ4BG2L4PMYFC1VMYVETOTPCYGC3WGSTYVD3SZG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="health">Self-Intersecting Regions</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9.273mm|Location2.X=9.273mm|Location1.Y=29.045mm|Location2.Y=29.045mm" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9.273mm|Location2.X=9.273mm|Location1.Y=29.045mm|Location2.Y=29.045mm">Self-intersection: Region (0 hole(s)) Top Layer (9.273mm,29.045mm)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

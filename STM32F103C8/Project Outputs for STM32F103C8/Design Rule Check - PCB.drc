@@ -1,0 +1,89 @@
+Protel Design System Design Rule Check
+PCB File : E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc
+Date     : 6/3/2025
+Time     : 3:14:27 PM
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(InPolygon)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.4mm) (MaxHoleWidth=3mm) (PreferredHoleWidth=0.4mm) (MinWidth=0.7mm) (MaxWidth=6mm) (PreferedWidth=0.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (All)
+   Violation between Minimum Annular Ring: (No Ring) Via (41.675mm,3.674mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Via (45.675mm,3.674mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+Rule Violations :2
+
+Processing Rule : Acute Angle Constraint [Tracks Only] (Minimum=60.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.4mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.3mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.01mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.01mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Minimum Annular Ring (Minimum=0.15mm) (All)
+   Waived Violation between Minimum Annular Ring: (No Ring) Pad P2-H1(2.667mm,54.737mm) on Multi-Layer (Annular Ring missing on Top Layer)Waived by aKaReZa at 3/8/2025 11:19:23 PMBoard Holes
+   Waived Violation between Minimum Annular Ring: (No Ring) Pad P2-H2(7.747mm,2.667mm) on Multi-Layer (Annular Ring missing on Top Layer)Waived by aKaReZa at 3/8/2025 11:19:23 PMBoard Holes
+   Waived Violation between Minimum Annular Ring: (No Ring) Pad P2-H3(35.687mm,2.667mm) on Multi-Layer (Annular Ring missing on Top Layer)Waived by aKaReZa at 3/8/2025 11:19:23 PMBoard Holes
+   Waived Violation between Minimum Annular Ring: (No Ring) Pad P2-H4(50.927mm,53.467mm) on Multi-Layer (Annular Ring missing on Top Layer)Waived by aKaReZa at 3/8/2025 11:19:23 PMBoard Holes
+Waived Violations :4
+
+PCB Health Issue Category : Reference Point Outside the Component Area
+   Reference point outside the component area: Small Component J2-Female (14.224mm,72.771mm) on Top Layer
+Issues :1
+
+PCB Health Issue Category : Micro-Segments (Copper)
+   Micro-Segment: Region (0 hole(s)) Top Layer P1(16.51mm,51.689mm) P2(16.51mm,51.689mm)
+   Micro-Segment: Region (0 hole(s)) Top Layer P1(16.51mm,49.403mm) P2(16.51mm,49.403mm)
+Issues :2
+
+PCB Health Issue Category : Self-Intersecting Regions
+   Self-intersection: Region (0 hole(s)) Top Layer (9.273mm,29.045mm)
+Issues :1
+
+
+Violations Detected : 2
+Waived Violations : 4
+PCB Health Issues : 4
+Time Elapsed        : 00:00:01
