@@ -94,15 +94,10 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 > The resources are detailed in the sections below.  
 > To access any of them, simply click on the corresponding blue link.
 
-- [Video PlayList](./Videos.md)
-  ---  
-  All educational videos related to this topic are available at this link.  
+> [!CAUTION]
+> This tutorial has not yet **started!**
 
-- [STM32 Packages](./packages.md)  
-  ---  
-  This section offers download links for STM32Cube MCU Firmware Packages and Keil DFU (Device Firmware Update) packages.  
-  These packages include essential libraries, drivers, and middleware to enhance and expedite the development, programming, and debugging of STM32 microcontrollers.
-    
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
@@ -128,7 +123,7 @@ First, open **Git Bash** :
 -  Once **Git Bash** is open, run the following command to clone the repository:
 
  ```bash
-git clone https://github.com/aKaReZa75/STM32
+git clone https://github.com/aKaReZa75/eBoard_STM32F103C8.git
 ```
 - You can copy the above command by either:
 - Clicking on the **Copy** button on the right of the command.
