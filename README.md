@@ -3,6 +3,8 @@
 The STM32F103C8T6 is a high-performance, 32-bit ARM Cortex-M3 microcontroller from STMicroelectronics.  
 It is part of the STM32 family and is widely used in embedded systems, IoT devices, and various industrial applications due to its powerful features and flexibility.
 
+![STM32F103C8 Shield](Images/STM32F103C8.jpg)
+
 <table>
   <tr>
   <td valign="top">
