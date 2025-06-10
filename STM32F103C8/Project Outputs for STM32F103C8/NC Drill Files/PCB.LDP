@@ -1,3 +1,3 @@
-Layer Pairs Export File for PCB: E:\aKaReZa\#gitHub\STM32\STM32F103C8\PCB.PcbDoc
+Layer Pairs Export File for PCB: E:\aKaReZa\#gitHub\eBoard_STM32F103C8\STM32F103C8\PCB.PcbDoc
 LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb-roundholes.txt|DrillLayers=gtl,gbl
 LayersSetName=Top_Bot_Slot_Holes|DrillFile=pcb-slotholes.txt|DrillLayers=gtl,gbl
