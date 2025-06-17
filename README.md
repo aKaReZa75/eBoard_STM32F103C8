@@ -4,6 +4,37 @@ This repository involves designing, assembling, and testing an educational heade
 
 ![STM32F103C8 Shield](Images/STM32F103C8.jpg)
 
+## STM32F103C8T6 Pin Mapping Table 
+
+| **Arduino Pin** | **STM32F103C8 Pin** | **Functionality** |
+| :-------------: | :-----------------: | :---------------- |
+|        A0       |         PA0         | ADC-IN0           |
+|        A1       |         PA1         | ADC-IN1           |
+|        A2       |         PA2         | ADC-IN2           |
+|        A3       |         PA3         | ADC-IN3           |
+|        A4       |         PA4         | ADC-IN4           |
+|        A5       |         PA5         | ADC-IN5           |
+|        D0       |         PB11        | UART3-RX          |
+|        D1       |         PB10        | UART3-TX          |
+|        D2       |         PB2         | GPIO              |
+|        D3       |         PA6         | TIM3-CH1 PWM      |
+|        D4       |         PA7         | TIM3-CH2 PWM      |
+|        D5       |         PB0         | TIM3-CH3 PWM      |
+|        D6       |         PB1         | TIM3-CH4 PWM      |
+|        D7       |         PA9         | GPIO              |
+|        D8       |         PA15        | TIM2-CH1 ICP      |
+|        D9       |         PA8         | TIM1-CH1 PWM      |
+|       D10       |         PB12        | SPI (NSS)         |
+|       D11       |         PB15        | SPI (MOSI)        |
+|       D12       |         PB14        | SPI (MISO)        |
+|       D13       |         PB13        | SPI (SCK)         |
+|       SDA       |         PB9         | I2C1 (SDA)        |
+|       SCL       |         PB8         | I2C1 (SCL)        |
+|       LED       |         PB5         | Built-in LED      |
+|       KEY       |         PA10        | Built-in Key      |
+|    CH340-RX     |         PB7         | UART1-TX (CH340)  |
+|    CH340-TX     |         PB6         | UART1-RX (CH340)  |
+
 <table>
   <tr>
   <td valign="top">
