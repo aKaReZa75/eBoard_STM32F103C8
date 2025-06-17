@@ -32,8 +32,8 @@ This repository involves designing, assembling, and testing an educational heade
 |       SCL       |         PB8         | I2C1 (SCL)        |
 |       LED       |         PB5         | Built-in LED      |
 |       KEY       |         PA10        | Built-in Key      |
-|    CH340-RX     |         PB7         | UART1-TX (CH340)  |
-|    CH340-TX     |         PB6         | UART1-RX (CH340)  |
+|    CH340-RX     |         PB6         | UART1-TX (CH340)  |
+|    CH340-TX     |         PB7         | UART1-RX (CH340)  |
 
 <table>
   <tr>
