@@ -2,7 +2,7 @@
 
 This repository involves designing, assembling, and testing an educational header board for the STM32F103C8 microcontroller, compatible with the Arduino UNO.
 
-![STM32F103C8 Shield](Images/STM32F103C8.jpg)
+![STM32F103C8 Shield](Images/STM32F103C8.png)
 
 ## STM32F103C8T6 Pin Mapping Table 
 
