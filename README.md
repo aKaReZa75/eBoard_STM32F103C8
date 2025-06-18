@@ -124,6 +124,10 @@ This repository involves designing, assembling, and testing an educational heade
 > The resources are detailed in the sections below.  
 > To access any of them, simply click on the corresponding blue link.
 
+- [Shopping Link](./ShoppingLink.md)  
+  ---
+  This document provides links to trusted suppliers where you can purchase all the essential components for this project, ensuring quality and reliability.
+
 > [!CAUTION]
 > The videos in this series have been recorded and will be published after editing!
 
