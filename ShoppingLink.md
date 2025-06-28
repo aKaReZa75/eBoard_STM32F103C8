@@ -3,7 +3,7 @@ This section provides a comprehensive list of components required for the "STM32
 Each item includes direct purchase links from reliable Iranian electronics suppliers, with recommended quantities for both essential needs and future prototyping.
 
 ## Capacitor
-- [ ] [**Cap_0603_33p**](https://lionelectronic.ir/products/3759-GRM1885C1H330FA01D) Quantity: 2, Prefer: 25, Supplier: LionElectronic
+- [ ] [**Cap_0603_18p**](https://lionelectronic.ir/products/1900-0603CG180J500NT) Quantity: 2, Prefer: 25, Supplier: LionElectronic **(Instead of: Cap_0603_18.5p)**
 - [ ] [**Cap_0603_33p**](https://lionelectronic.ir/products/3759-GRM1885C1H330FA01D) Quantity: 2, Prefer: 25, Supplier: LionElectronic
 - [ ] [**Cap_0805_22p**](https://lionelectronic.ir/products/1950-TCC0805COG220J500BT) Quantity: 2, Prefer: 25, Supplier: LionElectronic
 - [ ] [**Cap_0805_10n**](https://lionelectronic.ir/products/1973-0805B103K500NT) Quantity: 1, Prefer: 25, Supplier: LionElectronic
