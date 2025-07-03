@@ -128,8 +128,28 @@ This repository involves designing, assembling, and testing an educational heade
   ---
   This document provides links to trusted suppliers where you can purchase all the essential components for this project, ensuring quality and reliability.
 
-> [!CAUTION]
-> The videos in this series have been recorded and will be published after editing!
+## Project Videos
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/Mtyp9QHlwoI">aKaReZa 107 – eBoard, STM32F103C8</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Step-by-step guide to designing an educational STM32F103C8 board, covering power supply, oscillator setup, boot pin configurations, STLINK connection, I/O mapping, and PCB layout tips—ideal for mastering STM32 hardware design through hands-on learning.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/Mtyp9QHlwoI">
+        <img src="https://img.youtube.com/vi/Mtyp9QHlwoI/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 107 – eBoard, STM32F103C8 Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
