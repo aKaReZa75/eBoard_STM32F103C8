@@ -129,6 +129,19 @@ This repository involves designing, assembling, and testing an educational heade
   This document provides links to trusted suppliers where you can purchase all the essential components for this project, ensuring quality and reliability.
 
 ## Project Videos
+
+```plaintext
+Educational Boards
+   └── [aKaReZa 107 - eBoard, STM32F103C8]
+       ├─ Design Review — Migrating from ATMEGA328 layout.
+       ├─ Power Setup — Pin connections and safety.
+       ├─ Oscillators — HSE and LSE integration.
+       ├─ Boot Config — Pin modes and selection.
+       ├─ Programmer — STLINK connection and setup.
+       ├─ I/O Mapping — Practical pin assignments.
+       └─ PCB Layout — Placement strategies for routing.
+```
+
 <table style="border-collapse: collapse;">
   <tr>
     <td valign="top" style="padding: 0 10px;">
