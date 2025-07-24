@@ -23,10 +23,10 @@ This repository involves designing, assembling, and testing an educational heade
 |        D7       |         PA9         | GPIO              |
 |        D8       |         PA15        | TIM2-CH1 ICP      |
 |        D9       |         PA8         | TIM1-CH1 PWM      |
-|       D10       |         PB12        | SPI (NSS)         |
-|       D11       |         PB15        | SPI (MOSI)        |
-|       D12       |         PB14        | SPI (MISO)        |
-|       D13       |         PB13        | SPI (SCK)         |
+|       D10       |         PB12        | SPI2 (NSS)        |
+|       D11       |         PB15        | SPI2 (MOSI)       |
+|       D12       |         PB14        | SPI2 (MISO)       |
+|       D13       |         PB13        | SPI2 (SCK)        |
 |       SDA       |         PB9         | I2C1 (SDA)        |
 |       SCL       |         PB8         | I2C1 (SCL)        |
 |       LED       |         PB5         | Built-in LED      |
@@ -35,61 +35,61 @@ This repository involves designing, assembling, and testing an educational heade
 |    CH340-TX     |         PB7         | UART1-RX (CH340)  |
 
 ### **ADC (Analog-to-Digital Converter)**
-| **Arduino Pin** | **STM32 Pin** | **ADC Channel** | **Other Functionality** |
-| --------------- | ------------- | --------------- | ----------------------- |
-| A0              | PA0           | ADC\_IN0        | TIM2\_CH1               |
-| A1              | PA1           | ADC\_IN1        | TIM2\_CH2               |
-| A2              | PA2           | ADC\_IN2        | TIM2\_CH3, USART2\_TX   |
-| A3              | PA3           | ADC\_IN3        | TIM2\_CH4, USART2\_RX   |
-| A4              | PA4           | ADC\_IN4        | SPI1\_NSS               |
-| A5              | PA5           | ADC\_IN5        | SPI1\_SCK               |
+| **Arduino Pin** | **STM32 Pin** | **ADC Channel** | 
+| --------------- | ------------- | --------------- |
+| A0              | PA0           | ADC_IN0         | 
+| A1              | PA1           | ADC_IN1         | 
+| A2              | PA2           | ADC_IN2         | 
+| A3              | PA3           | ADC_IN3         | 
+| A4              | PA4           | ADC_IN4         | 
+| A5              | PA5           | ADC_IN5         | 
 
 ### **Timers / PWM Outputs**
 | **Arduino Pin** | **STM32 Pin** | **PWM / Timer** |
 | --------------- | ------------- | --------------- |
-| D3              | PA6           | TIM3\_CH1 (PWM) |
-| D4              | PA7           | TIM3\_CH2 (PWM) |
-| D5              | PB0           | TIM3\_CH3 (PWM) |
-| D6              | PB1           | TIM3\_CH4 (PWM) |
-| D9              | PA8           | TIM1\_CH1 (PWM) |
+| D3              | PA6           | TIM3_CH1 (PWM)  |
+| D4              | PA7           | TIM3_CH2 (PWM)  |
+| D5              | PB0           | TIM3_CH3 (PWM)  |
+| D6              | PB1           | TIM3_CH4 (PWM)  |
+| D9              | PA8           | TIM1_CH1 (PWM)  |
 
 | **Arduino Pin** | **STM32 Pin** | **Special Timer Function** |
 | --------------- | ------------- | -------------------------- |
-| D8              | PA15          | TIM2\_CH1 (Input Capture)  |
+| D8              | PA15          | TIM2_CH1 (Input Capture)   |
 
 
 ### **USART (Serial Communication)**
 | **Function**   | **Arduino Pin** | **STM32 Pin** | **USART Function** |
 | -------------- | --------------- | ------------- | ------------------ |
-| UART3 RX       | D0              | PB11          | USART3\_RX         |
-| UART3 TX       | D1              | PB10          | USART3\_TX         |
-| CH340 RX (USB) | CH340-RX        | PB6           | USART1\_TX         |
-| CH340 TX (USB) | CH340-TX        | PB7           | USART1\_RX         |
+| UART3 RX       | D0              | PB11          | USART3_RX          |
+| UART3 TX       | D1              | PB10          | USART3_TX          |
+| CH340 RX (USB) | CH340-RX        | PB6           | USART1_TX          |
+| CH340 TX (USB) | CH340-TX        | PB7           | USART1_RX          |
 
 
 ### **I2C Interface**
 | **Arduino Pin** | **STM32 Pin** | **I2C Signal** |
 | --------------- | ------------- | -------------- |
-| SDA             | PB9           | I2C1\_SDA      |
-| SCL             | PB8           | I2C1\_SCL      |
+| SDA             | PB9           | I2C1_SDA       |
+| SCL             | PB8           | I2C1_SCL       |
 
 
 ### **SPI Interface**
 | **Arduino Pin** | **STM32 Pin** | **SPI Signal** |
 | --------------- | ------------- | -------------- |
-| D10             | PB12          | SPI2\_NSS      |
-| D11             | PB15          | SPI2\_MOSI     |
-| D12             | PB14          | SPI2\_MISO     |
-| D13             | PB13          | SPI2\_SCK      |
+| D10             | PB12          | SPI2_NSS       |
+| D11             | PB15          | SPI2_MOSI      |
+| D12             | PB14          | SPI2_MISO      |
+| D13             | PB13          | SPI2_SCK       |
 
 
 ### **Other / General Purpose**
-| **Arduino Pin** | **STM32 Pin** | **Functionality**            |
-| --------------- | ------------- | ---------------------------- |
-| LED             | PB5           | Onboard LED                  |
-| KEY             | PA10          | User Key / GPIO / USART1\_RX |
-| D2              | PB2           | GPIO                         |
-| D7              | PA9           | GPIO / USART1\_TX            |
+| **Arduino Pin** | **STM32 Pin** | **Functionality** |
+| --------------- | ------------- | ----------------- |
+| LED             | PB5           | Onboard LED       |
+| KEY             | PA10          | User Key          |
+| D2              | PB2           | GPIO/eInt         |
+| D7              | PA9           | GPIO/TIM1_CH2     |
 
 ---
 
