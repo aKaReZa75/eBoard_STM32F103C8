@@ -193,82 +193,86 @@ DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for STM32F103C8\NC Drill Files\PCB.LDP
+DocumentPath=PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for STM32F103C8\PCB_WithOUT_3D\PCB.PcbDoc
+DocumentPath=Project Outputs for STM32F103C8\NC Drill Files\PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB.REP
+DocumentPath=Project Outputs for STM32F103C8\PCB_WithOUT_3D\PCB.PcbDoc
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for STM32F103C8\Export STEP\PCB.step
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for STM32F103C8\Export STEP\PCB.step
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Drawing_1.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Drillmap_1.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Keep-out.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Legend_Bot.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Legend_Top.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Paste_Bot.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Paste_Top.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Profile.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Soldermask_Top.gbr
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for STM32F103C8\Generates pick and place files\Pick Place for PCB.csv
+DocumentPath=Project Outputs for STM32F103C8\Gerber Files\PCB_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for STM32F103C8\Generates pick and place files\Pick Place for PCB.txt
+DocumentPath=Project Outputs for STM32F103C8\Generates pick and place files\Pick Place for PCB.csv
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for STM32F103C8\Report Project Hierarchy\STM32F103C8.REP
+DocumentPath=Project Outputs for STM32F103C8\Generates pick and place files\Pick Place for PCB.txt
 DItemRevisionGUID=
 
 [GeneratedDocument26]
+DocumentPath=Project Outputs for STM32F103C8\Report Project Hierarchy\STM32F103C8.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
 DocumentPath=Project Outputs for STM32F103C8\Report Single Pin Nets\STM32F103C8.REP
 DItemRevisionGUID=
 
