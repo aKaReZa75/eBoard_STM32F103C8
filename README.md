@@ -4,6 +4,11 @@ This repository involves designing, assembling, and testing an educational heade
 
 ![STM32F103C8 Shield](Images/STM32F103C8.png)
 
+> [!IMPORTANT]
+> Before sending the board files for PCB fabrication, **always make sure you are using the latest released version** of the project.
+> Hardware issues or design flaws might exist in earlier versions and could be fixed in newer releases.
+> To avoid costly mistakes and ensure the best performance, always refer to the **[Releases](../../releases)** section, where all known issues, updates, and version-specific notes are clearly documented.
+
 ## STM32F103C8T6 Pin Mapping Table 
 | **Arduino Pin** | **STM32F103C8 Pin** | **Functionality** |
 | :-------------: | :-----------------: | :---------------- |
