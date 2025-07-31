@@ -223,6 +223,25 @@ Educational Boards
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/Qt_0GZEKY6k">aKaReZa 111 – Repair, STM32F103C8 Soldering</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Follow the complete soldering guide for the STM32F103C8 educational board, including power input setup, voltage regulator testing, microcontroller soldering, USB communication via CH340, THT connector mounting, and final board verification.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/Qt_0GZEKY6k">
+        <img src="https://img.youtube.com/vi/Qt_0GZEKY6k/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 111 – Repair, STM32F103C8 Soldering Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+  
 </table>
 
 
