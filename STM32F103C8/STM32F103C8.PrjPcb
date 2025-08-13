@@ -277,16 +277,20 @@ DocumentPath=Project Outputs for STM32F103C8\Report Single Pin Nets\STM32F103C8.
 DItemRevisionGUID=
 
 [Parameter1]
-Name=CompanyName
-Value=github.com/aKaReZa75
+Name=
+Value=
 
 [Parameter2]
+Name=Revision
+Value=1.0.1
+
+[Parameter3]
 Name=Project_Name
 Value=STM32F103C8 EB
 
-[Parameter3]
-Name=Revision
-Value=1.0
+[Parameter4]
+Name=CompanyName
+Value=github.com/aKaReZa75
 
 [Configuration1]
 Name=Sources

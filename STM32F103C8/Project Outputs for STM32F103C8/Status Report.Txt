@@ -1,14 +1,10 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 10:10:27 AM On 6/18/2025
-
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [STM32F103C8.PrjPcb]
-   Generated File[Bill of Materials-STM32F103C8.pdf]
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [PCB.PcbDoc]
+   Generated File[PCB.step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 10:10:32 AM On 6/18/2025
+Finished Output Generation At 1:47:34 PM On 8/13/2025
