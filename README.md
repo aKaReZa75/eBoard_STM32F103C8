@@ -187,6 +187,22 @@ This repository involves designing, assembling, and testing an educational heade
 > The resources are detailed in the sections below.  
 > To access any of them, simply click on the corresponding blue link.
 
+- [Altium Library](https://github.com/aKaReZa75/Altium-Library)  
+  ---  
+   All PCB designs across all repositories and projects are built using this Altium Designer component library. It contains a wide range of verified footprints, schematic symbols, and 3D models, ensuring consistency and accuracy in PCB designs. If you're working on a new PCB, using this library will save you time and minimize errors.
+
+- [PCB & Electronics Design Training](https://github.com/aKaReZa75/PCB)  
+  ---  
+  This repository is dedicated to **learning PCB design and electronics from scratch**. It covers everything from circuit theory to practical PCB layout techniques, including routing strategies, best practices, and component placement. Whether you're a beginner or an experienced designer, this resource will help you **improve your PCB design skills and create professional-quality boards**.
+
+- [Microcontroller Training](https://github.com/aKaReZa75/Microcontroller)  
+  ---  
+  This repository offers a comprehensive guide to learning **various microcontrollers** and how to interface them with different shields. You’ll find tutorials on **using and configuring shields**, along with hands-on projects to help you **get your microcontrollers up and running**. Whether you're working with **Arduino, STM32, ESP32**, or others, this resource will help you understand how to integrate these platforms effectively for your projects.
+
+- [STM32 Microcontroller Training](https://github.com/aKaReZa75/STM32)  
+  ---  
+  This repository offers a **comprehensive guide to STM32 microcontroller programming**, focusing on the STM32F103C8T6. Explore **STM32 architecture, peripheral configuration, timers, interrupts, communication protocols (UART, SPI, I2C), and real-time applications** through practical examples and hands-on projects. Whether you're a beginner or an experienced developer, this resource will help you build a strong foundation and advance your skills in STM32 embedded development.
+
 - [Shopping Link](./ShoppingLink.md)  
   ---
   This document provides links to trusted suppliers where you can purchase all the essential components for this project, ensuring quality and reliability.
